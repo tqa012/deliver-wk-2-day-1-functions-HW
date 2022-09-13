@@ -26,12 +26,20 @@
 
 // array methods, turn num into an array, method to add those
 
-func sumDigits(num) {
-    for (let i = 0; i < num.length; i++) {
-    return sum;
-    }   
-}
-console.log(sumDigits(42));
+
+var myInt = 42;
+ 
+let myFunc = num => Number(num);
+ 
+var intArr = Array.from(String(myInt), myFunc);
+
+sum = 0;
+
+for (let i = 0; i < intArr.length; i++) {
+        sum += intArr[i];
+    }
+
+console.log(sum);
 
 // function calculateSide(sideA, sideB){
 //     return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
