@@ -48,9 +48,18 @@ function makeHobbits() {
 	console.log('2: makeHobbits')
 
 	// display an `unordered list` of hobbits in the shire
+        <ul>
+            <li>Frodo Baggins</li>
+            <li>Samwise "Sam" Gamgee</li>
+            <li>Meriadoc "Merry" Brandybuck</li>
+            <li>Peregrin "Pippin" Took</li>
+        </ul>
 
 	// give each hobbit a class of `hobbit`
-
+        <div class="hobbit">Frodo Baggins</div>
+        <div class="hobbit">Samwise "Sam" Gamgee</div>
+        <div class="hobbit">Meriadoc "Merry" Brandybuck</div>
+        <div class="hobbit">Peregrin "Pippin" Took</div>
 	// hint: create a 'ul' outside the loop into which to append the 'li's
 
 	// hint: get 'The-Shire' by using its id
